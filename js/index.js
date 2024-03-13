@@ -71,7 +71,7 @@
 
     if (!isPresent && data.Title != undefined) {
       if (data.Poster == "N/A") {
-        data.Poster = "./images/not-found.png";
+        data.Poster = "./images/not-found.PGN";
       }
       suggestionList.push(data);
       const movieCard = document.createElement("div");
